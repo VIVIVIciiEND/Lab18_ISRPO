@@ -177,4 +177,21 @@ let a3 = 10;
 let b3 = "10";
 console.log(a3 == b3) ;
 console.log(a3 === b3) ;
-//
+// == сравнивает значение после преобразование а === сравнивает и тип и значение 
+
+let  monthNumber = 12;
+switch (monthNumber){
+    case 1 : console.log("Январь");break;
+    case 1 : console.log("Февраль");break;
+    case 1 : console.log("Март");break;
+    case 1 : console.log("Апрель");break;
+    case 1 : console.log("Май");break;
+    case 1 : console.log("Июнь");break;
+    case 1 : console.log("Июль");break;
+    case 1 : console.log("Август");break;
+    case 1 : console.log("Сентябрь");break;
+    case 1 : console.log("Октябрь");break;
+    case 1 : console.log("Ноябрь");break;
+    case 1 : console.log("Декабрь");break;
+    default: console.log("не правильный параметр")
+}
