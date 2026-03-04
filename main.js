@@ -135,15 +135,46 @@
 // console.log(arr1 === arr2) ; 
 
 //практическое задание 2 ; 
-let x1 = 10 ;
-let y1 = 2 ;
-console.log(x1 + y1);
-console.log(x1 - y1);
-console.log(x1 * y1);
-console.log(x1  / y1);
+// let x1 = 10 ;
+// let y1 = 2 ;
+// console.log(x1 + y1);
+// console.log(x1 - y1);
+// console.log(x1 * y1);
+// console.log(x1  / y1);
 
-x1 = "10" ; 
-console.log(x1 + y1);
-console.log(x1 - y1);
-console.log(x1 * y1);
-console.log(x1  / y1);
+// x1 = "10" ; 
+// console.log(x1 + y1);
+// console.log(x1 - y1);
+// console.log(x1 * y1);
+// console.log(x1  / y1);
+
+//практическая работа 3 
+// let a2 = 3 ;
+// let b2 = 5 ;
+// console.log(a2 * b2);
+// console.log(a2 + b2);
+
+let temperature = 15;
+if (temperature < 0){
+    console.log("холодно")
+}else if (0<temperature && temperature>=20){
+    console.log("прохладно")
+}else{
+    console.log("тепло")
+}
+
+let isLoggedIn = true;
+let isAdmin = false;
+if ( isAdmin == true && isLoggedIn == true ){
+    console.log("Полный доступ");
+}else if (isAdmin == true & isLoggedIn != true){
+    console.log( "Ограниченный доступ")
+}else{
+    console.log( "Доступ запрещён")
+}
+
+let a3 = 10;
+let b3 = "10";
+console.log(a3 == b3) ;
+console.log(a3 === b3) ;
+//
